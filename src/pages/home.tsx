@@ -58,6 +58,7 @@ const HomePage = (_props: Props) => {
                 
                 const codes = code.find(item => item.name == maxucthu);
                 if(codes) {
+                    toastr.info("Đang xử lý, Vui lòng ko tải lại trang");
         const headers = {
             "ht-token": token
             
