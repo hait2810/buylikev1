@@ -20,7 +20,7 @@ const Header = (props: Props) => {
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           
-            <li><NavLink className="dropdown-item" to="addcode">Thêm code</NavLink></li>
+            <li><NavLink className="dropdown-item" to="/admin/addcode">Thêm code</NavLink></li>
             <li><NavLink className="dropdown-item" to={`/admin/`}>Danh sách code</NavLink></li>
           </ul>
         </li>

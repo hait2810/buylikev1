@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import {NavLink} from 'react-router-dom'
+import Header from './Header';
 type Props = {}
 
 const ListToken = (props: Props) => {
@@ -14,6 +15,7 @@ const ListToken = (props: Props) => {
     }, [])
   return (
     <div>
+      <Header />
          <table className="table">
     <thead>
       <tr>
